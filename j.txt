@@ -1,0 +1,16 @@
+mkdir -p src/main/java/server
+touch src/main/java/server/VoteServer.java
+touch src/main/java/server/AuthenticationService.java
+touch src/main/java/server/KafkaProducerService.java
+touch src/main/java/server/VoteProcessingService.java
+
+mkdir -p src/main/java/client
+touch src/main/java/client/VoterClient.java
+touch src/main/java/client/AuthenticationClient.java
+touch src/main/java/client/KafkaConsumerService.java
+
+mkdir -p src/main/java/ui
+touch src/main/java/ui/UserInterface.java
+
+mkdir -p src/main/java/util
+touch src/main/java/util/SecurityManager.java
